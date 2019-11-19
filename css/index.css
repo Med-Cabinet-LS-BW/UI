@@ -185,7 +185,6 @@ img {
 }
 .container {
   width: 100%;
-  margin: 0 auto;
 }
 nav {
   font-family: 'Quicksand', sans-serif;
@@ -253,10 +252,16 @@ nav a {
 }
 .forms input {
   padding: 0.75rem;
+  width: 30%;
 }
-.forms .h2 {
-  justify-content: flex-start;
-  font-size: 3%;
+.forms #left {
+  margin-right: 30rem;
+}
+.forms #left_two {
+  margin-right: 24rem;
+}
+.forms #left_three {
+  margin-right: 27rem;
 }
 .forms button {
   border: none;
@@ -268,7 +273,7 @@ nav a {
   background-color: #3d8f6d;
   width: 8%;
   border-radius: 0.25rem;
-  width: 20%;
+  width: 30%;
 }
 .forms button :hover {
   background-color: #2e6b52;
