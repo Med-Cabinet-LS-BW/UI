@@ -331,3 +331,19 @@ nav a {
   flex-direction: row;
   justify-content: space-between;
 }
+.bottom_content {
+  display: flex;
+  flex-direction: row;
+  margin: 5rem;
+  justify-content: space-around;
+}
+.bottom_content .bottom_p {
+  width: 25%;
+}
+.bottom_content .bottom_p h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.bottom_content .bottom_p p {
+  font-size: 1.5rem;
+}
