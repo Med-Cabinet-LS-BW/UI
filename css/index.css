@@ -14,7 +14,7 @@
   padding: 0.5rem;
   margin: 0 1rem;
   background-color: #3d8f6d;
-  width: 10%;
+  width: 8%;
   border-radius: 0.25rem;
 }
 .button :hover {
@@ -182,10 +182,8 @@ p {
 }
 img {
   max-width: 100%;
-  height: auto;
 }
 .container {
-  max-width: 1000px;
   width: 100%;
   margin: 0 auto;
 }
@@ -207,13 +205,18 @@ nav a {
   font-size: 2rem;
 }
 .sign_up {
-  background-image: url('images/banner_img.jpeg');
-  margin-top: 1rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('/home/derekdyer0309/Desktop/UI/images/banner_img.jpeg');
+  height: 75%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 .sign_up p {
-  font-size: 5rem;
+  font-size: 7rem;
   display: flex;
   justify-content: flex-start;
+  margin-left: 5rem;
 }
 .sign_up button {
   border: none;
@@ -223,8 +226,10 @@ nav a {
   padding: 0.5rem;
   margin: 0 1rem;
   background-color: #3d8f6d;
-  width: 10%;
+  width: 8%;
   border-radius: 0.25rem;
+  margin-left: 5rem;
+  margin: 5rem 5rem;
 }
 .sign_up button :hover {
   background-color: #2e6b52;
@@ -261,7 +266,7 @@ nav a {
   padding: 0.5rem;
   margin: 0 1rem;
   background-color: #3d8f6d;
-  width: 10%;
+  width: 8%;
   border-radius: 0.25rem;
   width: 20%;
 }
@@ -295,6 +300,10 @@ nav a {
   align-items: center;
   justify-content: center;
   flex-direction: row;
+  margin-top: 2rem;
+}
+.cta h2 {
+  font-size: 3rem;
 }
 .card {
   background-color: white;
