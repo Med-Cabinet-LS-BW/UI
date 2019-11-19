@@ -206,10 +206,26 @@ nav a {
 .strain_content {
   background-color: #F7F3F7;
 }
+.cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
 .card {
   background-color: white;
   width: 100%;
   padding: 1rem;
+  overflow-y: scroll;
+}
+.card ::-webkit-scrollbar {
+  width: 5px;
+}
+.card ::-webkit-scrollbar-track {
+  background: none;
+}
+.card ::-webkit-scrollbar-thumb {
+  background: #888;
 }
 .card h3 {
   font-size: 2rem;
