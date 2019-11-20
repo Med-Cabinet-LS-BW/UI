@@ -4,17 +4,26 @@ nav {
     color: @font;
     background-color: @main;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     padding: 1rem;
 
     h1{
         font-size: 3rem;
+        justify-content: flex-start;
+    }
+
+    .links {
+        justify-content: right;
+         
     }
 
     a{
         text-decoration: none;
         color: @font;
         font-size: 2rem;
+        padding: 0rem, 3rem;
+        margin-left: 1rem;
     }
+
 }

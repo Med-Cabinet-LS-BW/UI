@@ -1,0 +1,34 @@
+.about {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    margin:0 auto;
+    margin-top: 5rem;
+    width: 80%;
+    
+    
+
+    .team_member {
+        width: 20%;
+        padding: 1rem;
+
+        img {
+            border-radius: 50%;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        @media @phone {
+            width: 80%;
+            margin: 0 auto;
+        }
+    }
+
+    @media @phone {
+        flex-direction: column;
+    }
+}

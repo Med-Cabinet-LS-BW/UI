@@ -1,16 +1,22 @@
 .sign_up {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('/home/derekdyer0309/Desktop/UI/images/banner_img.jpeg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("https://images.unsplash.com/photo-1549494093-a565e02bcfaa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=595&q=80");
     height: 75%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    
 
     p{
         font-size: 7rem;
         display: flex;
         justify-content: flex-start;
         margin-left: 5rem;
+        color: white;
+
+        @media @phone {
+            font-size: 4.25rem;
+        }
     
     }
 
@@ -18,5 +24,9 @@
         .button();
         margin-left: 5rem;
         margin: 5rem 5rem;
+
+        @media @phone {
+            width: 20%;
+        }
     }
 }
