@@ -210,7 +210,7 @@ nav a {
   margin-left: 1rem;
 }
 .sign_up {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('images/banner.jpeg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("images/banner.jpeg");
   height: 75%;
   background-position: center;
   background-repeat: no-repeat;
@@ -326,6 +326,7 @@ nav a {
 }
 .about .team_member {
   width: 20%;
+  padding: 1rem;
 }
 @media (max-width: 500px) {
   .about {
