@@ -210,7 +210,7 @@ nav a {
   margin-left: 1rem;
 }
 .sign_up {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('/home/derekdyer0309/Desktop/UI/images/banner_img.jpeg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('images/banner.jpeg');
   height: 75%;
   background-position: center;
   background-repeat: no-repeat;
@@ -313,6 +313,24 @@ nav a {
 .selector button:focus {
   color: #368f68;
   border-bottom: 1px solid #368f68;
+}
+.about {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  margin-top: 5rem;
+  width: 80%;
+}
+.about .team_member {
+  width: 20%;
+}
+@media (max-width: 500px) {
+  .about {
+    flex-direction: column;
+  }
 }
 .strain_content {
   background-color: #F7F3F7;
