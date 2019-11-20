@@ -5,12 +5,18 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    
 
     p{
         font-size: 7rem;
         display: flex;
         justify-content: flex-start;
         margin-left: 5rem;
+        color: white;
+
+        @media @phone {
+            font-size: 4.25rem;
+        }
     
     }
 
@@ -18,5 +24,9 @@
         .button();
         margin-left: 5rem;
         margin: 5rem 5rem;
+
+        @media @phone {
+            width: 20%;
+        }
     }
 }

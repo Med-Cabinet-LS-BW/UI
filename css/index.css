@@ -191,17 +191,23 @@ nav {
   color: #f7f3f7;
   background-color: #3d8f6d;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   padding: 1rem;
 }
 nav h1 {
   font-size: 3rem;
+  justify-content: flex-start;
+}
+nav .links {
+  justify-content: right;
 }
 nav a {
   text-decoration: none;
   color: #f7f3f7;
   font-size: 2rem;
+  padding: 0rem, 3rem;
+  margin-left: 1rem;
 }
 .sign_up {
   background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('/home/derekdyer0309/Desktop/UI/images/banner_img.jpeg');
@@ -216,6 +222,12 @@ nav a {
   display: flex;
   justify-content: flex-start;
   margin-left: 5rem;
+  color: white;
+}
+@media (max-width: 500px) {
+  .sign_up p {
+    font-size: 4.25rem;
+  }
 }
 .sign_up button {
   border: none;
@@ -232,6 +244,11 @@ nav a {
 }
 .sign_up button :hover {
   background-color: #2e6b52;
+}
+@media (max-width: 500px) {
+  .sign_up button {
+    width: 20%;
+  }
 }
 .login {
   display: flex;
@@ -348,7 +365,8 @@ nav a {
   justify-content: space-around;
 }
 .bottom_content .bottom_p {
-  width: 25%;
+  width: 100%;
+  margin-bottom: 2rem;
 }
 .bottom_content .bottom_p h2 {
   font-size: 2rem;
@@ -362,7 +380,6 @@ nav a {
     flex-direction: column;
     width: 80%;
     align-items: center;
-    flex-wrap: wrap;
     align-content: space-between;
   }
 }
