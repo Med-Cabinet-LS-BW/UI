@@ -328,6 +328,18 @@ nav a {
   width: 20%;
   padding: 1rem;
 }
+.about .team_member img {
+  border-radius: 50%;
+}
+.about .team_member p {
+  text-align: center;
+}
+@media (max-width: 500px) {
+  .about .team_member {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
 @media (max-width: 500px) {
   .about {
     flex-direction: column;
