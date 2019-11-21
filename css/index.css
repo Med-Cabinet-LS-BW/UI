@@ -405,10 +405,14 @@ nav a {
   text-align: justify;
 }
 @media (max-width: 500px) {
+  .bottom_content .bottom_p {
+    width: 80%;
+  }
+}
+@media (max-width: 500px) {
   .bottom_content {
     flex-direction: column;
-    width: 80%;
-    align-items: center;
-    align-content: space-between;
+    width: 100%;
+    align-items: flex-start;
   }
 }
