@@ -210,7 +210,7 @@ nav a {
 }
 .sign_up {
   background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("https://images.unsplash.com/photo-1549494093-a565e02bcfaa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=595&q=80");
-  Width: 100%;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -245,9 +245,14 @@ nav a {
 .sign_up button:hover {
   background-color: #2e6b52;
 }
+@media (max-width: 800px) {
+  .sign_up button {
+    width: 15%;
+  }
+}
 @media (max-width: 500px) {
   .sign_up button {
-    width: 20%;
+    width: 25%;
   }
 }
 .login {

@@ -1,33 +1,36 @@
 .sign_up {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("https://images.unsplash.com/photo-1549494093-a565e02bcfaa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=595&q=80");
-    Width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    url("https://images.unsplash.com/photo-1549494093-a565e02bcfaa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=595&q=80");
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 
-    p{
-        font-size: 7rem;
-        display: flex;
-        justify-content: flex-start;
-        margin-left: 2rem;
-        color: white;
+  p {
+    font-size: 7rem;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 2rem;
+    color: white;
 
-        @media @phone {
-            font-size: 4.25rem;
-        }
-    
+    @media @phone {
+      font-size: 4.25rem;
+    }
+  }
+
+  button {
+    .button();
+    margin: 5rem 7rem;
+    font-weight: bold;
+    margin-bottom: 15rem;
+
+    @media @tablet {
+      width: 15%;
     }
 
-    button {
-        .button();
-        margin: 5rem 7rem;
-        font-weight: bold;
-        margin-bottom: 15rem;
-
-        @media @phone {
-            width: 20%;
-        }
+    @media @phone {
+      width: 25%;
     }
+  }
 }
