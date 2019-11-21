@@ -365,6 +365,14 @@ nav a {
 .cta h2 {
   font-size: 3rem;
 }
+@media (max-width: 500px) {
+  .cta {
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    padding: 2rem;
+  }
+}
 .card {
   background-color: white;
   width: 100%;
