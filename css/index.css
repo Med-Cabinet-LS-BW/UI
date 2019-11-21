@@ -407,6 +407,7 @@ nav a {
 @media (max-width: 500px) {
   .bottom_content .bottom_p {
     width: 80%;
+    margin-left: 2rem;
   }
 }
 @media (max-width: 500px) {
