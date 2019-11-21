@@ -4,7 +4,6 @@
   justify-content: center;
   padding: 2rem;
   font-size: 2.5rem;
-  background-color: white;
 }
 .button {
   border: none;
@@ -211,7 +210,7 @@ nav a {
 }
 .sign_up {
   background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("https://images.unsplash.com/photo-1549494093-a565e02bcfaa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=595&q=80");
-  height: 75%;
+  Width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -221,7 +220,7 @@ nav a {
   font-size: 7rem;
   display: flex;
   justify-content: flex-start;
-  margin-left: 5rem;
+  margin-left: 2rem;
   color: white;
 }
 @media (max-width: 500px) {
@@ -239,8 +238,9 @@ nav a {
   background-color: #3d8f6d;
   width: 8%;
   border-radius: 0.25rem;
-  margin-left: 5rem;
-  margin: 5rem 5rem;
+  margin: 5rem 7rem;
+  font-weight: bold;
+  margin-bottom: 15rem;
 }
 .sign_up button :hover {
   background-color: #2e6b52;
@@ -256,7 +256,6 @@ nav a {
   justify-content: center;
   padding: 2rem;
   font-size: 2.5rem;
-  background-color: white;
 }
 .forms {
   display: flex;
@@ -264,7 +263,6 @@ nav a {
   justify-content: center;
   padding: 2rem;
   font-size: 2.5rem;
-  background-color: white;
   flex-direction: column;
 }
 .forms input {
@@ -301,7 +299,6 @@ nav a {
   justify-content: center;
   padding: 2rem;
   font-size: 2.5rem;
-  background-color: white;
 }
 .selector button {
   border: none;
@@ -392,12 +389,12 @@ nav a {
 .bottom_content {
   display: flex;
   flex-direction: row;
-  margin: 5rem;
+  margin: 0 auto;
   justify-content: space-around;
 }
 .bottom_content .bottom_p {
-  width: 100%;
-  margin-bottom: 2rem;
+  width: 25%;
+  margin: 4rem 0rem;
 }
 .bottom_content .bottom_p h2 {
   font-size: 2rem;
@@ -405,6 +402,7 @@ nav a {
 }
 .bottom_content .bottom_p p {
   font-size: 1.5rem;
+  text-align: justify;
 }
 @media (max-width: 500px) {
   .bottom_content {
