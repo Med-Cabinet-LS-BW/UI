@@ -16,7 +16,7 @@
   width: 8%;
   border-radius: 0.25rem;
 }
-.button :hover {
+.button:hover {
   background-color: #2e6b52;
 }
 html,
@@ -242,7 +242,7 @@ nav a {
   font-weight: bold;
   margin-bottom: 15rem;
 }
-.sign_up button :hover {
+.sign_up button:hover {
   background-color: #2e6b52;
 }
 @media (max-width: 500px) {
@@ -290,7 +290,7 @@ nav a {
   border-radius: 0.25rem;
   width: 30%;
 }
-.forms button :hover {
+.forms button:hover {
   background-color: #2e6b52;
 }
 .selector {
